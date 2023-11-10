@@ -1,0 +1,325 @@
+/* Global classes */
+
+.navbar .btn {
+  background-color: #FF6969;
+}
+
+.navbar .btn:hover {
+  background-color: #FF6969;
+}
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #e65c5c;
+}
+
+.active-color {
+  color: #e65c5c;
+}
+
+.container-2 {
+  width: 70%;
+  margin: auto;
+}
+
+span {
+  color: #FF6969;
+}
+
+
+/* images */
+
+.images {
+  height: 80vh;
+  overflow-y: hidden;
+  position: relative;
+}
+
+
+.images::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.images {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.animate__animated.animate__slideOutUp {
+  --animate-duration: 25s;
+}
+
+#btn-1:focus {
+  border-style: none;
+  border-bottom: solid #FF6969;
+  color: #FF6969 !important;
+}
+
+#btn-2:focus {
+  border-style: none;
+  border-bottom: solid #FF6969;
+  color: #FF6969 !important;
+  ;
+}
+
+#btn-3:focus {
+  border-style: none;
+  border-bottom: solid #FF6969;
+  color: #FF6969 !important;
+  ;
+}
+
+#btn-4:focus {
+  border-style: none;
+  border-bottom: solid #FF6969;
+  color: #FF6969 !important;
+  ;
+}
+
+#text-2 {
+  display: none;
+}
+
+#text-3 {
+  display: none;
+}
+
+#text-4 {
+  display: none;
+}
+
+
+
+/* sponser */
+
+.scroll-parent {
+  position: relative;
+  width: 100vw;
+  height: 5rem;
+  overflow-x: hidden;
+  overflow-wrap: break-word;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 3s linear infinite;
+
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+.primary {
+  animation: primary 20s linear infinite;
+}
+
+.secondary {
+  animation: secondary 20s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+.scroll-parent2 {
+  position: relative;
+  width: 100vw;
+  height: 12rem;
+  overflow-x: hidden;
+
+}
+
+.scroll-parent-2 {
+  position: relative;
+  width: 100vw;
+  height: 12rem;
+  overflow-x: hidden;
+
+}
+
+.scroll-element-2 {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  animation: primary 3s linear infinite;
+
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: -100%;
+  }
+}
+
+.primary-2 {
+  animation: primaary 20s linear infinite;
+}
+
+.secondary-2 {
+  animation: secondaary 20s linear infinite;
+}
+
+@keyframes primaary {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes secondaary {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+
+
+
+
+
+.photos .main {
+  height: 500px;
+  background-image: url("./Assets/collection1.png");
+  background-position: center;
+}
+
+.photos .main-2 {
+  height: 500px;
+  background-image: url("./Assets/collection2.png");
+  background-position: center;
+}
+
+
+#text-toggle1 {
+  display: none;
+}
+
+#text-toggle2 {
+  display: none;
+}
+
+#text-toggle3 {
+  display: none;
+}
+
+#text-toggle4 {
+  display: none;
+}
+
+#text-toggle5 {
+  display: none;
+}
+
+.questions {
+  width: 80%;
+}
+
+.questions .red {
+  background-color: #FF6969;
+}
+
+.questions .red:hover {
+  background-color: #e65c5c;
+}
+
+/* footer */
+
+.footer .logo {
+  font-size: 4rem;
+  font-weight: bolder;
+  display: inline-flex;
+  margin-bottom: -10px;
+  margin-left: 5px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: gray;
+
+}
+
+.footer a:hover {
+  color: rgb(64, 64, 64);
+}
+
+.footer .links h2 {
+  margin-bottom: 2rem;
+}
+
+.footer a li {
+  font-size: 1.2rem;
+  text-decoration: none;
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.footer p a {
+  color: #e65c5c;
+}
+
+.footer ul li:hover {
+  color: #FF6969;
+}
+
+@media (max-width: 991.98px) {
+  footer .row .footer-logo {
+    display: flex;
+    justify-content: center;
+    scale: 0.8;
+
+  }
+
+  .cards .last-col {
+    margin-top: 1rem;
+    width: 100%;
+  }
+}

@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEA | House design solution</title>
+    <link rel="stylesheet" href="exterior.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="shortcut icon" href="./Assets/logo.svg" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!-- Scripts connection  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="./exterior.js"></script>
+
+
+    <!-- Body -->
+
+
+    <!------------------------------ NavBar  ---------------------------->
+    <!-- ------------------------------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 ">
+
+        <a class="navbar-brand mt-auto mb-auto ms-5" href="#"><img src="./Assets/logo.svg" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+                <a class="nav-link mx-2" aria-current="page" href="./home.html">Home</a>
+                <a class="nav-link mx-2" href="about.html">About us</a>
+                <a class="nav-link mx-2" href="exterior.html"><span>Exterior Design</span></a>
+                <a class="nav-link mx-2" href="interior.html">Interior Design</a>
+                <a class="nav-link mx-2" href="./product single.html">Product Single</a>
+                <a class="nav-link mx-2" href="./qoute.html">Get a qoute</a>
+            </div>
+            <button class=" btn p-5 mt-0 mb-0 rounded-0 " data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+                    class="fa-solid fa-cart-shopping fa-2x" style="color: #ffffff;"></i></button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- showcase -->
+
+    <section class="showcase bg-light">
+        <div>
+            <div class="row">
+                <div class="images col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="row">
+                        <div class="scroll col animate__animated animate__slideOutUp  animate__infinite ">
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9483e3ef07f_HOMEA%20Architecture%20Template%20-%20bathroom.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9ffa53ef084_HOMEA%20Architecture%20Template%20-%20kitchen.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b097bbc97b947b_HOMEA%2520Architecture%2520Template%2520-%2520kitchen%2520design-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9f78e3ef093_HOMEA%20Architecture%20Template%20-%20outside.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                        </div>
+                        <div class="scroll col  animate__animated animate__slideOutUp  animate__infinite">
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b09765ed7b9476_HOMEA%2520Architecture%2520Template%2520-%2520house%2520plan-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce40427e036943f808755_HOMEA%2520Architecture%2520Template%2520-%2520Square%2520inside%2520house-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f631b94eb895c_HOMEA%2520Architecture%2520Template%2520-%2520home-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9ffa53ef084_HOMEA%20Architecture%20Template%20-%20kitchen.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="scroll col animate__animated animate__slideOutUp  animate__infinite ">
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9483e3ef07f_HOMEA%20Architecture%20Template%20-%20bathroom.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9ffa53ef084_HOMEA%20Architecture%20Template%20-%20kitchen.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b097bbc97b947b_HOMEA%2520Architecture%2520Template%2520-%2520kitchen%2520design-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9f78e3ef093_HOMEA%20Architecture%20Template%20-%20outside.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                        </div>
+                        <div class="scroll col animate__animated animate__slideOutUp  animate__infinite">
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b09765ed7b9476_HOMEA%2520Architecture%2520Template%2520-%2520house%2520plan-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce40427e036943f808755_HOMEA%2520Architecture%2520Template%2520-%2520Square%2520inside%2520house-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f631b94eb895c_HOMEA%2520Architecture%2520Template%2520-%2520home-p-500.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                            <div class="row image"><img
+                                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9ffa53ef084_HOMEA%20Architecture%20Template%20-%20kitchen.png"
+                                    class="px-2 py-2 rounded-5 " alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 p-5 my-auto">
+                    <h2 class="fw-bold">Our<span> exterior design </span>services</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                        interdum nulla, ut commodo diam libero vitae erat. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit.</p>
+                    <div class="row pt-3">
+                        <div class="col"><img
+                                src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b948b53ef070_HOMEA%20Webflow%20Template%20Icon%20-%20prices.svg"
+                                alt=""></div>
+                        <div class="col"><img
+                                src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b91a263ef06f_HOMEA%20Webflow%20Template%20Icon%20-%20clean%20house.svg"
+                                alt=""></div>
+                        <div class="col"><img
+                                src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f639a85eb8959_HOMEA%20Webflow%20Template%20Icon%20-%20Tailor%20Made.svg"
+                                alt=""></div>
+                        <div class="col"><img
+                                src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f635da4eb896a_HOMEA%20Webflow%20Template%20Icon%20-%20Magic.svg"
+                                alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <!-- ====================== -->
+    <section class="services py-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col">
+                    <h2 class="fw-bold">What do exterior architectural services include ?</h2>
+                </div>
+                <div class="col">
+                    <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                        voluptates optio voluptatibus quidem veniam minima dolorum incidunt.</p>
+                </div>
+            </div>
+            <div class="row w-75 ">
+                <div class="col-lg-3 col-md-3 col-sm-3 text-center"><button
+                        class="btn rounded-0 fw-medium text-secondary pb-3 " id="btn-1">Site
+                        analysis</button></div>
+                <div class="col-lg-3 col-md-3 col-sm-3  text-center"><button
+                        class="btn rounded-0 fw-medium text-secondary pb-3 " id="btn-2">Outdoor
+                        spaces</button></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 text-center"><button
+                        class="btn rounded-0 fw-medium text-secondary pb-3 " id="btn-3">Landscape
+                        design</button></div>
+                <div class="col-lg-3 col-md-3 col-sm-3 text-center"><button
+                        class="btn rounded-0 fw-medium text-secondary pb-3 " id="btn-4">Exterior
+                        design</button></div>
+                <hr>
+            </div>
+            <div class=" w-75 mx-5">
+                <div class="py-3" id="text-1">
+                    <h2 class="fw-bold"><img
+                            src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b948b53ef070_HOMEA%20Webflow%20Template%20Icon%20-%20prices.svg"
+                            alt=""> Site analysis and evaluation</h2>
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        quisquam facere qui veritatis ipsum pariatur corrupti perspiciatis, ipsa saepe sed facilis
+                        inventore eos tempora, alias repellendus aspernatur minima nesciunt consequuntur?</p>
+                </div>
+                <div class="py-3" id="text-2">
+                    <h2 class="fw-bold"><img
+                            src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b91a263ef06f_HOMEA%20Webflow%20Template%20Icon%20-%20clean%20house.svg"
+                            alt=""> Customized design of outdoor living spaces</h2>
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        quisquam facere qui veritatis ipsum pariatur corrupti perspiciatis, ipsa saepe sed facilis
+                        inventore eos tempora, alias repellendus aspernatur minima nesciunt consequuntur?</p>
+                </div>
+                <div class="py-3" id="text-3">
+                    <h2 class="fw-bold"><img
+                            src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f639a85eb8959_HOMEA%20Webflow%20Template%20Icon%20-%20Tailor%20Made.svg"
+                            alt=""> Landscape design</h2>
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        quisquam facere qui veritatis ipsum pariatur corrupti perspiciatis, ipsa saepe sed facilis
+                        inventore eos tempora, alias repellendus aspernatur minima nesciunt consequuntur?</p>
+                </div>
+                <div class="py-3" id="text-4">
+                    <h2 class="fw-bold"><img
+                            src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f635da4eb896a_HOMEA%20Webflow%20Template%20Icon%20-%20Magic.svg"
+                            alt=""> Facade and exterior design</h2>
+                    <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem
+                        quisquam facere qui veritatis ipsum pariatur corrupti perspiciatis, ipsa saepe sed facilis
+                        inventore eos tempora, alias repellendus aspernatur minima nesciunt consequuntur?</p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Row section -->
+
+    <section class="rows bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 p-5 my-auto">
+                    <h2 class="fw-bold pb-3">We can't wait to work with you</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                        interdum nulla.</p>
+                    <button class="col btn btn-dark text-center text-white py-3 px-5 mt-3">Free qoute</button>
+                    <button class="col btn btn-outline-dark text-center py-3 px-5 mx-3 mt-3">Call us</button>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b90cbc3ef079_HOMEA%20Architecture%20Webflow%20Template%20-%20Step%205%20Graphic%20Asset.svg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- sponser -->
+
+    <section class="sponser">
+        <div class="row py-5 ">
+            <div class="scroll-parent">
+                <div class="scroll-element primary row">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+
+                </div>
+                <div class="scroll-element secondary row">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+                    <img class="col"
+                        src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6382ceeb896b_HOMEA%20Architecture%20Template%20-%20logo%20Webflow.svg"
+                        alt="" height="30px">
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- cards -->
+
+    <section></section>
+
+
+
+    <!-- architecture -->
+
+    <section class="rows py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 p-5 my-auto">
+                    <h2 class="fw-bold pb-3">Transforming your vision into reality</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                        interdum nulla.</p>
+
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f630ba0eb895b_HOMEA%20Architecture%20Construction%20Weblflow%20Template%20Plan%20Graphic%20Design.svg"
+                        alt="" class="w-100">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <img src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f631b4beb895a_HOMEA%20Architecture%20Construction%20Weblflow%20Template%20House%20Graphic.svg"
+                        alt="" class="w-100">
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 p-5 my-auto">
+                    <h2 class="fw-bold pb-3">Comprehensive Services and Exceptional Value</h2>
+                    <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                        varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor
+                        interdum nulla.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- sliders section -->
+
+    <section class="sliders py-5">
+        <div class="text w-75 mx-auto text-center py-3">
+            <h2 class="fw-bold pb-3">Our latest projects</h2>
+            <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique qui, vel, unde
+                rem modi aliquam hic atque necessitatibus temporibus ducimus repellat quas! Aliquid deserunt saepe ipsa
+                possimus magnam. Laborum, recusandae!</p>
+        </div>
+
+        <div class="scroll-parent2">
+            <div class="scroll-element primary row">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b09765ed7b9476_HOMEA%2520Architecture%2520Template%2520-%2520house%2520plan-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9ffa53ef084_HOMEA%20Architecture%20Template%20-%20kitchen.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b907383ef08e_HOMEA%20Architecture%20Template%20-%20home%20design.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6353d0eb8965_HOMEA%2520Architecture%2520Template%2520-%2520villa-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b90e9b3ef089_HOMEA%20Architecture%20Template%20-%20inside%20house.png"
+                    alt="" height="100%">
+            </div>
+            <div class="scroll-element secondary row">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b097bbc97b947b_HOMEA%2520Architecture%2520Template%2520-%2520kitchen%2520design-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b907383ef08e_HOMEA%20Architecture%20Template%20-%20home%20design.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9fc1d3ef07a_HOMEA%20Architecture%20Template%20-%20house.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f631b94eb895c_HOMEA%2520Architecture%2520Template%2520-%2520home-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b09765ed7b9476_HOMEA%2520Architecture%2520Template%2520-%2520house%2520plan-p-500.png"
+                    alt="" height="100%">
+
+            </div>
+        </div>
+
+        <div class="scroll-parent-2 my-4">
+            <div class="scroll-element-2 primary-2 row">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b09765ed7b9476_HOMEA%2520Architecture%2520Template%2520-%2520house%2520plan-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9ffa53ef084_HOMEA%20Architecture%20Template%20-%20kitchen.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b907383ef08e_HOMEA%20Architecture%20Template%20-%20home%20design.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f6353d0eb8965_HOMEA%2520Architecture%2520Template%2520-%2520villa-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b90e9b3ef089_HOMEA%20Architecture%20Template%20-%20inside%20house.png"
+                    alt="" height="100%">
+            </div>
+            <div class="scroll-element-2 secondary-2 row">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b097bbc97b947b_HOMEA%2520Architecture%2520Template%2520-%2520kitchen%2520design-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b907383ef08e_HOMEA%20Architecture%20Template%20-%20home%20design.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b9fc1d3ef07a_HOMEA%20Architecture%20Template%20-%20house.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce3052d2f631b94eb895c_HOMEA%2520Architecture%2520Template%2520-%2520home-p-500.png"
+                    alt="" height="100%">
+                <img class="col rounded-4"
+                    src="https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce1cd71b09765ed7b9476_HOMEA%2520Architecture%2520Template%2520-%2520house%2520plan-p-500.png"
+                    alt="" height="100%">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Photos Section -->
+
+    <section class="photos py-5 ">
+        <div class="py-5 w-75 mx-auto">
+            <h2 class="fw-bold">Take a look at our work</h2>
+            <p class="w-50 text-secondary ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius
+                enim in
+                eros elementum tristique.</p>
+        </div>
+
+        <div id="carouselExample" class="carousel carousel-dark  slide">
+
+            <div class="carousel-inner w-75 mx-auto">
+
+                <div class="carousel-item active">
+                    <div class="item row">
+                        <div class="col-lg-6">
+                            <div class="main row d-flex align-items-end justify-content-center rounded-4">
+                                <div class="row ">
+                                    <div
+                                        class="col px-5 py-3 bg-light text-center text-dark fw-medium mx-3 rounded mb-3">
+                                        <i class="fa-solid fa-ruler-combined"></i> 500 m2
+                                    </div>
+                                    <div
+                                        class="col px-5 py-3 bg-light text-center text-dark fw-medium mx-3 rounded mb-3">
+                                        <i class="fa-solid fa-bed"></i> 4 bedr.
+                                    </div>
+                                    <div
+                                        class="col px-5 py-3 bg-light text-center text-dark fw-medium mx-3 rounded mb-3">
+                                        <i class="fa-solid fa-shower"></i> 3 bathr.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-auto pt-3">
+                                <div class="col"><img src="./Assets/collection1-2.png" class="rounded w-100 " alt="">
+                                </div>
+                                <div class="col"><img src="./Assets/collection1-3.png" class="rounded w-100 " alt="">
+                                </div>
+                                <div class="col"><img src="./Assets/collection1-4.png" class="rounded w-100 " alt="">
+                                </div>
+                                <div class="col"><img src="./Assets/collection1-5.png" class="rounded w-100 " alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 p-5">
+                            <h2 class="fw-bold">Building a home in Dublin</h2>
+                            <span class="fw-medium">Budget : 200 000€</span>
+                            <p class="text-secondary fw-light fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+                                ornare. Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                                tristique. Duis
+                                cursus, mi quis viverra ornare.</p>
+                            <div class="d-flex justify-content-between mt-5">
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 1
+                                </p>
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 2
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 3
+                                </p>
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 4
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="item row">
+                        <div class="col-lg-7">
+                            <div class="main-2 row d-flex align-items-end justify-content-center rounded-4">
+                                <div class="row ">
+                                    <div
+                                        class="col px-5 py-3 bg-light text-center text-dark fw-medium mx-3 rounded mb-3">
+                                        <i class="fa-solid fa-ruler-combined"></i> 500 m2
+                                    </div>
+                                    <div
+                                        class="col px-5 py-3 bg-light text-center text-dark fw-medium mx-3 rounded mb-3">
+                                        <i class="fa-solid fa-bed"></i> 4 bedr.
+                                    </div>
+                                    <div
+                                        class="col px-5 py-3 bg-light text-center text-dark fw-medium mx-3 rounded mb-3">
+                                        <i class="fa-solid fa-shower"></i> 3 bathr.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mx-auto pt-3">
+                                <div class="col"><img src="./Assets/collection2-1.png" class="rounded w-100" alt="">
+                                </div>
+                                <div class="col"><img src="./Assets/collection2-2.png" class="rounded w-100" alt="">
+                                </div>
+                                <div class="col"><img src="./Assets/collection2-3.png" class="rounded w-100" alt="">
+                                </div>
+                                <div class="col"><img src="./Assets/collection2-4.png" class="rounded w-100" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 px-5">
+                            <h2 class="fw-bold">Building a home in Dublin</h2>
+                            <span class="fw-medium">Budget : 200 000€</span>
+                            <p class="text-secondary fw-light fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit.
+                                Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra
+                                ornare. Lorem ipsum
+                                dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                                tristique. Duis
+                                cursus, mi quis viverra ornare.</p>
+                            <div class="d-flex justify-content-between  mt-5">
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 1
+                                </p>
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 2
+                                </p>
+                            </div>
+                            <div class="d-flex justify-content-between  mt-3">
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 3
+                                </p>
+                                <p class="fw-medium"><i class="fa-regular fa-square-check  mx-3"
+                                        style="color: #f66b6b;"></i>Key point 4
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </section>
+
+    <!--FAQ's questions -->
+    <section class="p-5">
+        <div class="questions mx-auto">
+            <div class=" text-center question text-center">
+                <h2 class="fw-bold mb-3 fs-1">You have questions, we have answers</h2>
+                <p class="fw-light text-secondary fs-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit
+                    atque vero
+                    laboriosam quo! Illo atque ipsam dicta rerum, voluptatum quidem.</p>
+            </div>
+
+
+            <div class="faq-questions pt-5  container-2">
+                <div class="ques" id="quest">
+                    <button class="btn w-100 text-start fs-3 fw-bold text-dark" id="toggle-btn1">What type of projects
+                        do you
+                        specialize in ? <i class="fa-solid fa-angle-down mx-5"></i></button>
+                    <p id="text-toggle1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti
+                        corrupti,
+                        quae iusto modi adipisci in. Velit tempora beatae delectus ut rem quam vitae, quo sapiente
+                        soluta. Tempora
+                        consequatur ipsa, asperiores odio voluptatum natus excepturi numquam id eveniet deserunt rerum
+                        mollitia
+                        commodi doloribus praesentium esse tenetur et a sit? Nobis?</p>
+                </div>
+                <hr>
+                <div class="ques" id="quest">
+                    <button class="btn  w-100 text-start fs-3 fw-bold text-dark" id="toggle-btn2">What type of projects
+                        do you
+                        specialize in ? <i class="fa-solid fa-angle-down mx-5"></i></button>
+                    <p id="text-toggle2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti
+                        corrupti,
+                        quae iusto modi adipisci in. Velit tempora beatae delectus ut rem quam vitae, quo sapiente
+                        soluta. Tempora
+                        consequatur ipsa, asperiores odio voluptatum natus excepturi numquam id eveniet deserunt rerum
+                        mollitia
+                        commodi doloribus praesentium esse tenetur et a sit? Nobis?</p>
+                </div>
+                <hr>
+                <div class="ques" id="quest">
+                    <button class="btn  w-100 text-start fs-3 fw-bold text-dark" id="toggle-btn3">How involved will I be
+                        in the
+                        design process ? <i class="fa-solid fa-angle-down mx-5"></i></button>
+                    <p id="text-toggle3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti
+                        corrupti,
+                        quae iusto modi adipisci in. Velit tempora beatae delectus ut rem quam vitae, quo sapiente
+                        soluta. Tempora
+                        consequatur ipsa, asperiores odio voluptatum natus excepturi numquam id eveniet deserunt rerum
+                        mollitia
+                        commodi doloribus praesentium esse tenetur et a sit? Nobis?</p>
+                </div>
+                <hr>
+                <div class="ques" id="quest">
+                    <button class="btn  w-100 text-start fs-3 fw-bold text-dark" id="toggle-btn4">What is your approach
+                        to
+                        sustainability ? <i class="fa-solid fa-angle-down mx-5"></i></button>
+                    <p id="text-toggle4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti
+                        corrupti,
+                        quae iusto modi adipisci in. Velit tempora beatae delectus ut rem quam vitae, quo sapiente
+                        soluta. Tempora
+                        consequatur ipsa, asperiores odio voluptatum natus excepturi numquam id eveniet deserunt rerum
+                        mollitia
+                        commodi doloribus praesentium esse tenetur et a sit? Nobis?</p>
+                </div>
+                <hr>
+                <div class="ques" id="quest">
+                    <button class="btn  w-100 text-start fs-3 fw-bold text-dark" id="toggle-btn5">How do you ensure that
+                        projects
+                        are completed on time and within budget ? <i class="fa-solid fa-angle-down mx-5"></i></button>
+                    <p id="text-toggle5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti
+                        corrupti,
+                        quae iusto modi adipisci in. Velit tempora beatae delectus ut rem quam vitae, quo sapiente
+                        soluta. Tempora
+                        consequatur ipsa, asperiores odio voluptatum natus excepturi numquam id eveniet deserunt rerum
+                        mollitia
+                        commodi doloribus praesentium esse tenetur et a sit? Nobis?</p>
+                </div>
+
+            </div>
+
+            <div class=" text-center question text-center pt-5 pb-5">
+                <h2 class="fw-bold mb-3 fs-1 pt-5">Still have questions ?</h2>
+                <p class="fw-light text-secondary fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="red btn fw-bold py-3 px-5 mt-3 text-white animate__animated animate__fadeInUp">contact
+                    us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- ==================== -->
+
+    <footer class="footer bg-light text-dark d-flex align-items-center p-5">
+        <div class="container-3">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 footer-logo">
+                    <div>
+                        <div class="d-flex align-items-end">
+                            <img src="./Assets/logo.svg" alt="">
+                            <h2 class="logo">HOMEA</h2>
+                        </div>
+                        <p class="text-secondary d-block fs-4 w-75 pt-3">Architectural firm specializing in home
+                            construction.</p>
+                    </div>
+
+                </div>
+
+                <div class="row text-center links col-lg-6 col-md-12 col-sm-12 d-flex justify-content-between">
+                    <ul class="col-sm-12 col-md-12 col-lg-4">
+                        <h2 class="fw-medium fs-5">MAIN PAGES</h2>
+                        <a href="">
+                            <li>Home</li>
+                        </a>
+                        <a href="">
+                            <li>Exterior design</li>
+                        </a>
+                        <a href="">
+                            <li>Interior design</li>
+                        </a>
+                        <a href="">
+                            <li>About us</li>
+                        </a>
+                        <a href="">
+                            <li>Free qoute</li>
+                        </a>
+                        <a href="">
+                            <li>Confirmation page</li>
+                        </a>
+                    </ul>
+
+                    <ul class="col-sm-12 col-md-12 col-lg-4">
+                        <h2 class="fw-medium fs-5">ECOMMERCE PAGES</h2>
+                        <a href="">
+                            <li>Product Single</li>
+                        </a>
+                        <a href="">
+                            <li>Checkout</li>
+                        </a>
+                        <a href="">
+                            <li>Checkout PayPal</li>
+                        </a>
+                        <a href="">
+                            <li>Order Confirmation</li>
+                        </a>
+                    </ul>
+
+                    <ul class="col-sm-12 col-md-12 col-lg-4">
+                        <h2 class="fw-medium fs-5">UTILITY PAGES</h2>
+                        <a href="">
+                            <li>Style Guide</li>
+                        </a>
+                        <a href="">
+                            <li>Licences</li>
+                        </a>
+                        <a href="">
+                            <li>404</li>
+                        </a>
+                        <a href="">
+                            <li>Coming Soon</li>
+                        </a>
+                        <a href="">
+                            <li>Password</li>
+                        </a>
+                        <a href="">
+                            <li>ChangeLog</li>
+                        </a>
+                    </ul>
+                </div>
+                <hr class="mt-5">
+                <p>Copyright © HOMEA | Design by <a href="">We-R.</a> | Powered by <a href="">Webflow</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

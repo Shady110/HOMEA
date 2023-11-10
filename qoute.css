@@ -1,0 +1,89 @@
+/* Global classes */
+
+.navbar .btn {
+    background-color: #FF6969;
+}
+
+.navbar .btn:hover {
+    background-color: #FF6969;
+}
+
+.navbar {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #e65c5c;
+}
+
+.active-color {
+    color: #e65c5c;
+}
+
+.container-2 {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+span {
+    color: #FF6969;
+}
+
+/* form */
+
+.form {
+    background-image: url(https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b93d4c3ef069_DEA%20IMMO%20plan%20construction%20cle%CC%81%20sur%20porte%20architecte.svg);
+}
+
+/* footer */
+
+.footer .logo {
+    font-size: 4rem;
+    font-weight: bolder;
+    display: inline-flex;
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.footer a:hover {
+    color: rgb(64, 64, 64);
+}
+
+.footer .links h2 {
+    margin-bottom: 2rem;
+}
+
+.footer a li {
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer p a {
+    color: #e65c5c;
+}
+
+.footer ul li:hover {
+    color: #FF6969;
+}
+
+@media (max-width: 991.98px) {
+    footer .row .footer-logo {
+        display: flex;
+        justify-content: center;
+        scale: 0.8;
+
+    }
+}

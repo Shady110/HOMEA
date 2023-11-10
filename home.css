@@ -1,0 +1,227 @@
+/* Global classes */
+
+.navbar .btn {
+    background-color: #FF6969;
+}
+
+.navbar .btn:hover {
+    background-color: #FF6969;
+}
+
+.navbar {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #e65c5c;
+}
+
+.active-color {
+    color: #e65c5c;
+}
+
+.container-2 {
+    width: 80%;
+    margin: auto;
+}
+
+.container-3 {
+    width: 90%;
+    margin: auto;
+}
+
+span {
+    color: #FF6969;
+}
+
+
+
+
+
+
+
+
+
+/* ShowCase */
+.showcase {
+
+    background-image: linear-gradient(rgba(255, 255, 255, 0.818), rgba(255, 255, 255, 0.122)), url(https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645cdd632e89b93d4c3ef069_DEA%20IMMO%20plan%20construction%20cle%CC%81%20sur%20porte%20architecte.svg), linear-gradient(to right, white, rgba(255, 255, 255, 0)), url("./Assets/showcase\ 2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.showcase .text {
+    padding-top: 5rem;
+}
+
+.showcase .text h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.showcase .text span {
+    color: #FF6969;
+}
+
+.cards {
+    position: relative;
+    top: 100px;
+}
+
+.cards span {
+    color: #FF6969;
+}
+
+.cards button:hover {
+    position: relative;
+    top: -5px;
+
+}
+
+
+/* Sectoin 2 */
+.section-2 {
+    margin-top: 9rem;
+    background-color: #F7F8FB;
+}
+
+.section-2 span {
+    color: #FF6969;
+}
+
+/* steps section */
+.steps .num {
+    background-color: #FF6969;
+    max-width: 40px;
+    height: 40px;
+    box-shadow: 10px, 20px, #FF6969;
+}
+
+/* cost section */
+
+.cost {
+    background-color: #F7F8FB;
+}
+
+.cost .red {
+    background-color: #FF6969;
+}
+
+.cost .red:hover {
+    background-color: #e65c5c;
+}
+
+.cost .white:hover {
+    background-color: whitesmoke;
+}
+
+.cost button {
+    position: relative;
+}
+
+.cost button:hover {
+    top: -3px;
+}
+
+/* photos */
+.photos .main {
+    height: 500px;
+    background-image: url("./Assets/collection1.png");
+    background-position: center;
+}
+
+.photos .main-2 {
+    height: 500px;
+    background-image: url("./Assets/collection2.png");
+    background-position: center;
+}
+
+
+#text-toggle1 {
+    display: none;
+}
+
+#text-toggle2 {
+    display: none;
+}
+
+#text-toggle3 {
+    display: none;
+}
+
+#text-toggle4 {
+    display: none;
+}
+
+#text-toggle5 {
+    display: none;
+}
+
+.questions {
+    width: 80%;
+}
+
+.questions .red {
+    background-color: #FF6969;
+}
+
+.questions .red:hover {
+    background-color: #e65c5c;
+}
+
+/* blacck */
+
+.black {
+    background-color: #272F39;
+}
+
+/* footer */
+
+.footer .logo {
+    font-size: 4rem;
+    font-weight: bolder;
+    display: inline-flex;
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.footer a:hover {
+    color: rgb(64, 64, 64);
+}
+
+.footer .links h2 {
+    margin-bottom: 2rem;
+}
+
+.footer a li {
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer p a {
+    color: #e65c5c;
+}
+
+.footer ul li:hover {
+    color: #FF6969;
+}
+
+@media (max-width: 991.98px) {
+    footer .row .footer-logo {
+        display: flex;
+        justify-content: center;
+        scale: 0.8;
+
+    }
+}

@@ -1,0 +1,146 @@
+/* Global classes */
+
+.navbar .btn {
+    background-color: #FF6969;
+}
+
+.navbar .btn:hover {
+    background-color: #FF6969;
+}
+
+.navbar {
+    z-index: 100;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.navbar .navbar-nav a:hover {
+    color: #e65c5c;
+}
+
+.active-color {
+    color: #e65c5c;
+}
+
+.container-2 {
+    width: 70%;
+    margin: auto;
+}
+
+span {
+    color: #FF6969;
+}
+
+
+
+/* showcase */
+
+.showcase .free {
+    background-color: #FF6969;
+    position: relative;
+}
+
+.showcase .free:hover {
+    background-color: #e65c5c;
+    top: -5px;
+}
+
+.showcase .call:hover {
+    position: relative;
+    top: -5px;
+}
+
+
+/* images */
+.exp {
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.247)), url(https://uploads-ssl.webflow.com/645cdc542120ce58e736ed8a/645ce49387180efd826f4280_HOMEA%20Webflow%20Template%20-%20Graphic%20Asset%20background%20contact.svg);
+
+}
+
+.images img {
+    height: fit-content;
+    width: 90%;
+}
+
+.last-col {
+    background-color: #FFE0E0;
+}
+
+.cards a:hover {
+    position: relative;
+    top: -7px;
+}
+
+
+.photos .main {
+    height: 500px;
+    background-image: url("./Assets/collection1.png");
+    background-position: center;
+}
+
+.photos .main-2 {
+    height: 500px;
+    background-image: url("./Assets/collection2.png");
+    background-position: center;
+}
+
+
+/* blacck */
+
+.black {
+    background-color: #272F39;
+}
+
+/* footer */
+
+.footer .logo {
+    font-size: 4rem;
+    font-weight: bolder;
+    display: inline-flex;
+    margin-bottom: -10px;
+    margin-left: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+
+}
+
+.footer a:hover {
+    color: rgb(64, 64, 64);
+}
+
+.footer .links h2 {
+    margin-bottom: 2rem;
+}
+
+.footer a li {
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.footer p a {
+    color: #e65c5c;
+}
+
+.footer ul li:hover {
+    color: #FF6969;
+}
+
+@media (max-width: 991.98px) {
+    footer .row .footer-logo {
+        display: flex;
+        justify-content: center;
+        scale: 0.8;
+
+    }
+
+    .cards .last-col {
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
